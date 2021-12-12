@@ -1,1 +1,6 @@
 # metaGenePlotGenerator
+Sneh Shah
+COM 491: Independent Study
+Advisor: Professor Stephen Douglass
+
+This repository contains two gene plot generators that were developed using Python and were meant as an Indepedent Study project. Meta gene plots are plots that help researchers understand gene expression visually by displaying reads over a genomic region or an entire genome. Typically, binning techniques are implemented to reduce noise to allow accurate predictions to be made on which genes may be correlated with each other. When performing metagene analysis, plots of multiple samples are generated and displayed in a single plot to track the interplay between experimental condiitons. My metagene plot generator accompanies a single gene plot generator that works to display the expression of a single  gene using distance in bins where the number of bins can be modified in the gene class file. I chose to use an averaging method for binning where each bin contains around the same number of nucleotides and the number of reads for each are averaged and the average is the expression level for the bin. Both gene plot generators produce csv files with the gene expression levels. The meta gene plot generator produces the expression levels with the gene names and a list of the unused genes. 
